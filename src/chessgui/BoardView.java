@@ -39,7 +39,7 @@ public class BoardView {
 				if(piece!=null) {
 					ImageView imageview = new ImageView(loadPieceImage(piece));
 					imageview.setFitWidth(60);
-					imageview.setFitHeight(60);
+					imageview.setFitHeight(90);
 					sp.getChildren().add(imageview);
 				}
 				
